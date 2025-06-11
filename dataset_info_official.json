@@ -1,4 +1,13 @@
 {
+  "untrack_500": {
+    "file_name": "/mnt/nvme/data/datasets/v2_term/untrack_500.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
     "zhiman_terms_sharegpt": {
       "file_name": "/mnt/nvme/data/datasets/terms/term_samples_system.json",
       "formatting": "sharegpt",
