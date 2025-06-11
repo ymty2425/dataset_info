@@ -1,4 +1,18 @@
 {
+  "wafer_xinlv": {
+    "file_name": "/mnt/nvme/data/datasets/xinlv/wafer_defect_dataset_v3.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "untrack_500": {
     "file_name": "/mnt/nvme/data/datasets/v2_term/untrack_500.json",
     "columns": {
