@@ -3,14 +3,15 @@
       "file_name": "/mnt/nvme/data/datasets/xinlv/wafer_defect_dataset_v3.json",
       "formatting": "sharegpt",
       "columns": {
-        "messages": "messages",
-        "images": "images"
+        "messages": "conversations",
+        "images": "image"
       },
       "tags": {
-        "role_tag": "role",
-        "content_tag": "content",
+        "role_tag": "from",
+        "content_tag": "value",
         "user_tag": "user",
-        "assistant_tag": "assistant"
+        "assistant_tag": "assistant",
+        "image_tag": "system"
       }
     },
     "untrack_500": {
