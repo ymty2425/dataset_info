@@ -1,4 +1,18 @@
 {
+    "wafer_xinlv_single": {
+      "file_name": "/mnt/nvme/data/datasets/xinlv/wafer_defect_dataset.json",
+      "formatting": "sharegpt",
+      "columns": {
+        "messages": "conversations",
+        "images": "images"
+      },
+      "tags": {
+        "role_tag": "role",
+        "content_tag": "content",
+        "user_tag": "user",
+        "assistant_tag": "assistant"
+      }
+    },
     "wafer_xinlv": {
       "file_name": "/mnt/nvme/data/datasets/xinlv/wafer_defect_dataset_v3.json",
       "formatting": "sharegpt",
